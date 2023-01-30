@@ -29,9 +29,5 @@ criterion = "0.4"
 default = ["use_pem"]
 use_pem = ["pem", "simple_asn1"]
 
-[[bench]]
-name = "jwt"
-harness = false
-
 [badges]
 maintenance = { status = "passively-maintained" }
